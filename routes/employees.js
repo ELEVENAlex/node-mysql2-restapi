@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const pool = require('../db.js')
 const {getEmployees, createEmployees, updateEmployees, deleteEmployees} = require('../controllers/employees.controller')
 
 
